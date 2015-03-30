@@ -25,9 +25,6 @@ include_recipe "php::module_mysql"
 include_recipe "php-fpm"
 include_recipe "composer"
 include_recipe "nodejs"
-include_recipe "ffmpeg2"
-
-
 
 ### install mysql and set default root user
 mysql_service 'default' do
